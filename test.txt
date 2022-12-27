@@ -1,0 +1,49 @@
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav, .header-section, .info-section3, .footer{
+  width: 80%;
+  max-width: 100%;
+  margin: auto;
+}
+
+.nav, .header-section {
+  background-color: #1F2937;
+}
+
+.nav-links {
+  justify-content: flex-start;
+}
+
+.nav{
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-section{
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left-info {
+  max-width: 500px;
+}
+
+.info-section1, .info-section2 {
+  width: 70%;
+  max-width: 100%;
+  margin: auto;
+}
