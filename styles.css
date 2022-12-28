@@ -76,25 +76,40 @@ a{
   font-size: 12px;
 }
 
+.main-info-1 img {
+  border: solid lightblue 3px;
+}
+
 .info-section2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: solid black;
+  background-color: #E5E7EB;
 }
 
 .main-text-2, .quote{
-  max-width: 500px;
+  max-width: 700px;
+}
+
+.main-text-2 p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .quote {
-  border: solid black;
   justify-content: flex-end;
 }
 
 .info-section3, .footer {
   display: flex;
   justify-content: center;
+}
+
+.info-section3 {
+  
+  max-width: 550px;
+  background-color: #3882F6;
 }
 
 button {
